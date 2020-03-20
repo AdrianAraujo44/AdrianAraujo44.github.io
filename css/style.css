@@ -1,0 +1,111 @@
+/*=============================
+Geral
+=============================*/
+
+a{
+	color:white;
+}
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+.input-padrao{
+    border-radius: 12px 0px 12px 0px;
+    height: 3rem;
+    border:1px solid black;
+}
+.btn-outline-padrao {
+  color: black;
+  background-color: transparent;
+  border-color: #007bff;
+  border:1px solid black;
+}
+
+.btn-outline-padrao:hover {
+  color: #fff;
+  background-image: linear-gradient(to right, #501ba3 , #0040FF);
+  border-color: #007bff;
+}
+#name{
+    font-family:Cinzel-Bold;
+    text-shadow: 1px 3px 4px black
+}
+.btn-primary{
+    background-image: linear-gradient(to right, #501ba3 , #0040FF);
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+.img-circle {
+    border-radius: 50%;
+   /* margin-left:40px;*/
+}
+.icon-color{
+   color: black;
+}
+.progress-bar{
+    background-image: linear-gradient(to right, #501ba3 , #0040FF);
+}
+
+#barra{
+    background-image: linear-gradient(to right, #501ba3 , #0040FF);
+    box-shadow:0px 5px 2px #454444;
+    height: 15px;
+}
+
+/*menu*/
+@media (min-width: 992px){
+#mainNav.navbar-shrink .navbar-brand {
+    color:#0040FF;
+}}
+/*=================================
+habilidades
+=================================*/
+#hab-logProgram{
+    margin-left: 9px;
+}
+#hab-html{
+    margin-left: 18px
+}
+.hab-html-text{
+    padding:12px;
+}
+.hab-bd-text{
+    margin-left:20px;
+}
+#hab-mysql-text{
+    margin-left:18px;
+}
+#hab-bd{
+    margin-left:18px;
+}
+#hab-java{
+    margin-left:5px;
+}
+#hab-css{
+    margin-left:10px;  
+}
+#hab-php{
+    margin-left:15px;
+}
+#hab-php-text{
+    margin-left:5px;
+}
+#photo-mysql{
+    width: 41px;
+    height: 41px;
+}
+
+
+
+
+
+#portfolioModal3{
+    background-image: url("../img/works/fundoGameMemory.png");
+    background-size: 100%;
+}
+.subtitle{
+    font-family: 'Coiny', cursive;
+}

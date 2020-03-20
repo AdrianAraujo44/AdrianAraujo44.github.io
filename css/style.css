@@ -33,6 +33,15 @@ a:hover{
 .btn-primary{
     background-image: linear-gradient(to right, #501ba3 , #0040FF);
 }
+.btn-outline-primary {
+    color:white;
+    border:1px solid white;
+}
+
+.btn-outline-primary:hover{
+    background-image: linear-gradient(to right, #501ba3 , #0040FF);
+    border:1px solid white;
+}
 .img-responsive{
     max-width: 100%;
     height: auto;

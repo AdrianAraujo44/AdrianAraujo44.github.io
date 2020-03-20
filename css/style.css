@@ -28,7 +28,7 @@ a:hover{
 }
 #name{
     font-family:Cinzel-Bold;
-    text-shadow: 1px 3px 4px black
+    text-shadow: #303031 1px 0.1em;
 }
 .btn-primary{
     background-image: linear-gradient(to right, #501ba3 , #0040FF);

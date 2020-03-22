@@ -180,7 +180,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/fundo.jpg");
+  background-image: url("../img/fundoAntigo.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -218,7 +218,7 @@ header.masthead p {
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 }
 

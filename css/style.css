@@ -28,7 +28,7 @@ a:hover{
 }
 #name{
     font-family:Cinzel-Bold;
-    text-shadow: #303031 1px 0.1em;
+    text-shadow: rgb(92, 90, 90) 1px 0.1em;
 }
 .btn-primary{
     background-image: linear-gradient(to right, #501ba3 , #0040FF);
@@ -39,8 +39,11 @@ a:hover{
 }
 
 .btn-outline-primary:hover{
-    background-image: linear-gradient(to right, #501ba3 , #0040FF);
+    /*background-image: linear-gradient(to right, #501ba3 , #0040FF);*/
+    background-color:transparent;
     border:1px solid white;
+    padding-left:30px;
+    padding-right: 30px;
 }
 .img-responsive{
     max-width: 100%;
@@ -109,7 +112,10 @@ habilidades
 
 
 
-
+body{
+    margin:0;
+    padding:0;
+}
 
 #portfolioModal3{
     background-image: url("../img/works/fundoGameMemory.png");
@@ -118,3 +124,33 @@ habilidades
 .subtitle{
     font-family: 'Coiny', cursive;
 }
+
+#wave {
+    background-image: url("../img/wave.png");
+    position: absolute;
+    width: 100%;
+    height: 143px ; 
+    bottom:0px;
+    left:0px;
+    max-height: 600px;
+    /*animation: animate 12s linear infinite;*/
+}
+/*@keyframes animate {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 1360px;
+    }
+}*/
+/*@media (min-width: 992px){
+    #wave {
+        bottom:-30px;
+    }
+}
+@media (min-width: 1200px){
+    #wave {
+        bottom:0px;
+    }
+}*/
+

@@ -67,6 +67,13 @@ a:hover{
     height: 15px;
 }
 
+/*section de habilidades*/
+.imgHabilidades {
+    width: 100px; 
+    height:100px; 
+    margin-bottom: 30px;
+}
+
 /*menu*/
 @media (min-width: 992px){
 #mainNav.navbar-shrink .navbar-brand {
